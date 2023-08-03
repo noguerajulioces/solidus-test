@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: solidus_app_production
-  username: solidus_app
+  url: <%= ENV['DATABASE_URL'] %>
+  database: solidus_wwa6
+  username: solidus_wwa6_user
   password: <%= ENV["SOLIDUS_APP_DATABASE_PASSWORD"] %>
