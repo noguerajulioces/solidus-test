@@ -7,6 +7,14 @@ GIT
       solidus_core (>= 1.1, < 5)
       solidus_support (~> 0.4)
 
+GIT
+  remote: https://github.com/solidusio-contrib/solidus_importer.git
+  revision: df625b8b4eb71ca1f672249632db8b477f957166
+  specs:
+    solidus_importer (0.2.0)
+      solidus_core (>= 2.0.0, < 4)
+      solidus_support (~> 0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -535,6 +543,7 @@ DEPENDENCIES
   solidus
   solidus_auth_devise (~> 2.5)
   solidus_i18n!
+  solidus_importer!
   solidus_stripe (~> 5.a)
   solidus_support
   solidus_volume_pricing

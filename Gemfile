@@ -101,3 +101,4 @@ gem "solidus_stripe", "~> 5.a"
 gem 'solidus_i18n', github: 'solidusio-contrib/solidus_i18n', branch: 'master'
 gem 'rails-i18n'
 gem 'solidus_volume_pricing'
+gem 'solidus_importer', github: 'solidusio-contrib/solidus_importer'
